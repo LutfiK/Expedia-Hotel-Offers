@@ -4,7 +4,8 @@
   "description": "Service to provide functionality related to hotel offers.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "lutfi kaddoura",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
     "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "6.11.3"
   }
 }
