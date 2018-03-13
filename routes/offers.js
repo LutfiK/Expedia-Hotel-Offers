@@ -17,6 +17,7 @@ router.post('/search', (req, response, next) => {
   path = urlPathBuilder.generatePath(baseBath, filter);
 
   apiProvider.getJSON(url, path, function (err, result) {
+   
     if (err) {
       var errMsg = 'Error while trying to get offers: ' + err;
       console.log(errMsg);

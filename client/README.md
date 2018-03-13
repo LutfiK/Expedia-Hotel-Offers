@@ -24,3 +24,9 @@ dependency modules for the project.
 8- run 'git add .' and then 'git commit -m "inital commit"' to add all files in folder to the repo
 9- run 'git push herokuClient master' to push all the repo files to the remote heroku repo
 10- you should be able to access the client now using the following url https://expedia-client-app.herokuapp.com/
+
+
+
+
+#To Run Integration Tests
+--> run 'npm test'

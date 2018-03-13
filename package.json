@@ -4,7 +4,7 @@
   "description": "Service to provide functionality related to hotel offers.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test | tap-spec",
     "start": "node app.js"
   },
   "author": "lutfi kaddoura",
@@ -16,5 +16,12 @@
   },
   "engines": {
     "node": "6.11.3"
+  },
+  "devDependencies": {
+    "sinon": "^4.4.3",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0",
+    "tape-around": "^2.2.0"
   }
 }
