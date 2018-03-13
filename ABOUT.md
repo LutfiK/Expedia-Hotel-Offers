@@ -17,3 +17,8 @@ client and server code and updating the port to listen on to handle heroku custo
 I didn't have any previous node js experience other than some self-learning in the past so this excersie was a bit of a 
 learning opportunity for me. 
 
+Todos on the UI Side :
+* udpate date filter fields to be datepicker controls
+" update the google map api to recieve the Longtitude and Latitude of the hotel passed in the API (API key required)
+
+

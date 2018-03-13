@@ -46,50 +46,11 @@ export class OffersComponent implements OnInit {
         console.log('Response:' + response);
         this.offers = response.slice();
         console.log('SearchOffers Result:' + JSON.stringify(this.offers));
-      
+
       }
     );
 
   }
 
 
-  /*
-  addContact() {
-
-    var newContact = new Contact();
-    newContact.first_name = this.first_name;
-    newContact.last_name = this.last_name;
-    newContact.phone = this.phone;
-
-    this.cs.addContact(newContact).subscribe(
-      contact =>
-      {
-       this.contacts.push(contact);
-       this.loadContacts();
-      }
-     );
-
-  }
-
-  deleteContact(id){
-    console.debug("Contact to delete: " + id);
-    this.cs.deleteContact(id).subscribe(
-      contact =>
-      {
-        for (var j = 0; j < this.contacts.length; j++){
-          if(this.contacts[j]._id == contact._id)
-          {
-            this.contacts.splice(j, 1);
-          }
-        }
-
-       this.loadContacts();
-      }
-     );
-  }
-
-  loadContacts(){
-    this.cs.getContacts().subscribe(contacts => this.contacts = contacts );
-  }
-*/
 }
